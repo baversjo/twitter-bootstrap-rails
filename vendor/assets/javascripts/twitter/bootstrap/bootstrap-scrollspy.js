@@ -87,6 +87,7 @@
         if ( active.parent('.dropdown-menu') )  {
           active.closest('li.dropdown').addClass('active')
         }
+		active.trigger('activate')
       }
 
   }
